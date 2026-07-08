@@ -104,7 +104,7 @@
 &trans           &trans       &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>, <&inc_dec_kp 0 0>;
         };
 
         layer_3 {
