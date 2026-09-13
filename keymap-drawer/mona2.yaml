@@ -1,22 +1,22 @@
 layout: {zmk_keyboard: mona2}
 layers:
   default:
-  - Q
+  - {t: Q, h: '5'}
   - W
   - E
   - R
-  - T
+  - {t: T, h: '5'}
   - Y
   - U
   - I
   - O
-  - {t: P, h: '2'}
+  - {t: P, h: '5'}
   - A
   - S
   - D
   - F
   - G
-  - {t: F6, h: '3'}
+  - {t: UP ARROW, h: '3'}
   - H
   - J
   - K
@@ -26,9 +26,9 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: '4'}
   - {t: '@', h: '2'}
-  - {t: F7, h: '2'}
+  - {t: DOWN ARROW, h: '2'}
   - N
   - M
   - ','
@@ -96,16 +96,16 @@ layers:
   - ''''
   - (
   - )
-  - {t: '-', type: held}
+  - '-'
   - '&'
   - ''''
   - (
   - )
   - '['
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - +
+  - '*'
   - '@'
   - '['
   - '='
@@ -113,12 +113,12 @@ layers:
   - $
   - '@'
   - ']'
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - /
+  - _
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
@@ -211,12 +211,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -245,9 +245,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
